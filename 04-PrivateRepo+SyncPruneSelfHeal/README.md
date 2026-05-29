@@ -266,9 +266,9 @@ Now we create a Kubernetes secret that stores Docker registry credentials. This 
 ```bash
 kubectl create secret docker-registry dockerhub-secret \
   --docker-server=https://index.docker.io/v1/ \
-  --docker-username=cloudwithvarjosh \
+  --docker-username=srini2390 \
   --docker-password=DOCKERHUB_ACCESS_TOKEN \
-  --docker-email=cloudwithvarjosh@gmail.com \
+  --docker-email=srinivasnairtp@gmail.com \
   --namespace=app1-ns
 ```
 
