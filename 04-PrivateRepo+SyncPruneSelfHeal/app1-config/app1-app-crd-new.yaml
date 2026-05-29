@@ -11,8 +11,8 @@ spec:
   source:
     repoURL: https://github.com/SrinivasNairTP/ArgoCD-Basics-To-Production.git
     targetRevision: HEAD
-    path: .
-
+    path: 04-PrivateRepo+SyncPruneSelfHeal/app1-config
+    
   destination:
     server: https://kubernetes.default.svc
     namespace: app1-ns
