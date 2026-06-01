@@ -6,7 +6,7 @@ metadata:
 spec:
   type: ClusterIP
   selector:
-    app: frontend
+    app: 05-Projects/app1-frontend-config/frontend
   ports:
     - port: 80
       targetPort: 4000
